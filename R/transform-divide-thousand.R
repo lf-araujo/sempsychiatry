@@ -7,7 +7,7 @@
 #'
 #' @param dataframe = dataframe
 #' @param optional = vectorListOfVariables
-#' @example df <- transformDivideThousand (cases, c("label1","label2"))
+
 
 
 

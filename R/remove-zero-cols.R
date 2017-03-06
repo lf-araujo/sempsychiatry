@@ -1,8 +1,7 @@
 #' Function to remove empty variables and NAs
 #' https://stackoverflow.com/questions/21530168/remove-columns-with-zero-values-from-a-dataframe
 #' @param df = dataframe
-#' @example remove_zero_cols(df)
-#'
+
 remove_zero_cols <- function(df) {
     rem_vec <- NULL
     for(i in 1:ncol(df)){
