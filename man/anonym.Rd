@@ -2,7 +2,7 @@
 % Please edit documentation in R/anonym.R
 \name{anonym}
 \alias{anonym}
-\title{Function to anonymize datasets so to create WMEs}
+\title{Function to anonymize datasets so to create MWEs}
 \usage{
 anonym(df)
 }

@@ -12,9 +12,8 @@ loadFiles(x)
 \description{
 Definition: This function is very specific for the data, but automates the
 process of going into the /input directory (where all the stats files lies)
-and import them into dataframes. It also removes the entries that are not
-used in the study. In order for it to work one must have setted the working
- directory and added an /input subdirectory.
+and import them into dataframes. In order for it to work one must have set the working
+directory and added an /input subdirectory.
 }
 \examples{
 df <- loadFiles ()
