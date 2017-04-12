@@ -1,4 +1,4 @@
-#' Function to anonymize datasets so to create WMEs
+#' Function to anonymize datasets so to create MWEs
 #'
 #' This function takes a dataframe and creates a dummy dataset, but maintaining
 #' sintactical relationships between the variables. This has been tested with

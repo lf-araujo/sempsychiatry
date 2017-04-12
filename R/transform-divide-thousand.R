@@ -7,7 +7,7 @@
 #'
 #' @param dataframe = dataframe
 #' @param optional = vectorListOfVariables
-
+#' @export
 
 
 

@@ -2,7 +2,7 @@
 #'
 #' The segmentations must be named aseg.allsegs
 #' @param x = directory
-
+#' @export
 
 loadFreeSurfer <- function(x){
     files <- list.files(path = x, recursive=T, full.names=T)

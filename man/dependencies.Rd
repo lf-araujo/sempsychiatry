@@ -10,11 +10,8 @@ dependencies(dep)
 \item{Conjunction}{of packages to check}
 }
 \description{
-This function check for dependencies, if installed they are left as is, 
+This function check for dependencies, if installed they are left as is,
 otherwise they are installed
-}
-\examples{
-dependencies(c("dplyr", "memisc"))
 }
 \keyword{installation}
 \keyword{packages}
