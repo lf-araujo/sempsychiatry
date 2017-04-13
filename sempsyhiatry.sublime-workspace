@@ -1,0 +1,888 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Phil",
+				"PhilSci"
+			],
+			[
+				"FIL",
+				"FILFILES"
+			],
+			[
+				"latex",
+				"latex-engine"
+			],
+			[
+				"pandoc",
+				"pandoc-citeproc"
+			],
+			[
+				"late",
+				"latex-engine"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "R/loadfiles.R",
+			"settings":
+			{
+				"buffer_size": 689,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "R/loadfreesurfer.R",
+			"settings":
+			{
+				"buffer_size": 971,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "close",
+		"selected_items":
+		[
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"upd",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"sear",
+				"Evernote: Search Note"
+			],
+			[
+				"pando",
+				"Pandoc"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"searc",
+				"Evernote: Search Note"
+			],
+			[
+				"search",
+				"Evernote: Search Note"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"update",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"send",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"new",
+				"Evernote: New empty note"
+			],
+			[
+				"upda",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"updat",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"chec",
+				"LanguageTool: Check Text"
+			],
+			[
+				"new e",
+				"Evernote: New empty note"
+			],
+			[
+				"distractionless: Documentation ",
+				"distractionless: Documentation (English)"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"clos",
+				"Project: Close"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"git ",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"pand",
+				"Pandoc"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"side bar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"toggle ",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"clo",
+				"Convert Case: Lower Case"
+			],
+			[
+				"toggl",
+				"View: Toggle Side Bar"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pandoc",
+				"Pandoc"
+			],
+			[
+				"check",
+				"LanguageTool: Check Text"
+			],
+			[
+				"langua",
+				"LanguageTool: Clear Problems"
+			],
+			[
+				"start",
+				"LanguageTool: Start Local Server"
+			],
+			[
+				"Check",
+				"LanguageTool: Check Text (Local Server)"
+			],
+			[
+				"start loca",
+				"LanguageTool: Start Local Server"
+			],
+			[
+				"new note",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"dele",
+				"Evernote: Delete Note"
+			],
+			[
+				"languagetool",
+				"LanguageTool: Clear Problems"
+			],
+			[
+				"language",
+				"LanguageTool: Change Language"
+			],
+			[
+				"send as",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"clear",
+				"LanguageTool: Clear Problems"
+			],
+			[
+				"chang",
+				"LanguageTool: Change Language"
+			],
+			[
+				"send a",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"toggle",
+				"View: Toggle Menu"
+			],
+			[
+				"send ",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"new no",
+				"Evernote: New empty note"
+			],
+			[
+				"",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"search ",
+				"Evernote: Search Note"
+			],
+			[
+				"delet",
+				"Evernote: Delete Note"
+			],
+			[
+				"delete",
+				"Evernote: Delete Note"
+			],
+			[
+				"\\",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"github",
+				"GitHub: Blame (master)"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"docx",
+				"Pandoc: Convert a Pandoc file to DocX"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pdf",
+				"Pandoc: Convert a Pandoc file to PDF"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"haskel",
+				"Set Syntax: Haskell"
+			],
+			[
+				"lang",
+				"LanguageTool: Change Language"
+			],
+			[
+				"languag",
+				"LanguageTool: Apply Suggested Correction(s)"
+			],
+			[
+				"mardk",
+				"Set Syntax: Markdown"
+			],
+			[
+				"evernote",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pandoc pdf",
+				"Pandoc: Convert a Pandoc file to PDF"
+			],
+			[
+				"next",
+				"LanguageTool: Next Problem"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown + Critic"
+			],
+			[
+				"crit",
+				"Set Syntax: Critic"
+			],
+			[
+				"critic",
+				"Set Syntax: Markdown + Critic"
+			],
+			[
+				"criti",
+				"Set Syntax: Critic"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"markdwo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"cri",
+				"Set Syntax: Critic"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"lan",
+				"LanguageTool: Check Text"
+			],
+			[
+				"cite",
+				"Citer: Search"
+			],
+			[
+				"Critic",
+				"Set Syntax: Critic"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ever",
+				"Evernote Settings: User"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 117.0,
+		"history":
+		[
+			"sys.version_info",
+			"sys.version",
+			"import sys",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/00_metadata.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Curriculum/markdown-cv/source/cv.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Structural imaging and cognition MEDIATION MODEL/Analysis/Only80/2017-04-12 Mediation model (budgie-remix's conflicted copy 2017-04-13).R",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Structural imaging and cognition MEDIATION MODEL/Analysis/Only80/2017-04-12 Mediation model.R",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Structural imaging and cognition MEDIATION MODEL/Analysis/Only80/2017-04-12 Mediation model (554D-117972-W7's conflicted copy 2017-04-13).R",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/07_SEM and levels.md",
+		"/media/budgie-remix/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/06_methods.md",
+		"/media/budgie-remix/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/08_mediation.md",
+		"/media/budgie-remix/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/09_DTI_moderation.md",
+		"/media/budgie-remix/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/11_Psychiatry_As_Special.md",
+		"/tmp/bib.bib",
+		"/media/budgie-remix/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/07_SEM and levels.md",
+		"/media/budgie-remix/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/14_appendix.md",
+		"/media/budgie-remix/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/00_metadata.md",
+		"/media/budgie-remix/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/01_frontmatter.md",
+		"/home/budgie-remix/.config/sublime-text-3/Packages/SublimeREPL/config/Swift/Default.sublime-commands",
+		"/home/budgie-remix/.config/sublime-text-3/Packages/SublimeREPL/config/Swift/Main.sublime-menu",
+		"/usr/share/dnscrypt-proxy/dnscrypt-resolvers.csv",
+		"/etc/default/dnscrypt-proxy",
+		"/media/budgie-remix/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/05_intro.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/15_references.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/08_mediation.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/14_appendix.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/12_conclusion.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/06_methods.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/NUSDAST/mediation model with genotypes.R",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/NUSDAST/moderation model multigroup.R",
+		"/home/luis/Dropbox/Documentos/Coding/R/sempsychiatry/R/anonym.R",
+		"/home/luis/Dropbox/Documentos/Coding/R/sempsychiatry/R/dependencies.R",
+		"/home/luis/Dropbox/Documentos/Coding/R/sempsychiatry/R/genotypestoordinals.R",
+		"/home/luis/Dropbox/Documentos/Coding/R/sempsychiatry/R/loadfreesurfer.R",
+		"/home/luis/Dropbox/Documentos/Coding/R/sempsychiatry/R/remove-zero-cols.R",
+		"/home/luis/Dropbox/Documentos/Coding/R/sempsychiatry/R/transform-divide-thousand.R",
+		"/home/luis/Dropbox/Documentos/Coding/R/sempsychiatry/R/loadfiles.R",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/Makefile",
+		"/home/luis/.config/sublime-text-3/Packages/User/Pandoc.sublime-settings",
+		"/home/luis/Dropbox/Documentos/Shared between Jacyra-Luis/Pandoquer/Makefile",
+		"/tmp/env.txt",
+		"/home/luis/Documentos/lf-araujo.github.io/assets/css/main.css",
+		"/home/luis/Documentos/onepage/_config.yml",
+		"/home/luis/Documentos/lf-araujo.github.io/css/base.scss",
+		"/home/luis/Modelos/Makefile",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/README.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/11_Psychiatry_As_Special.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/05_intro.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/01_frontmatter.md",
+		"/home/luis/Dropbox/Documentos/Coding/Genie/texteditor functional/Makefile",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/CAPÍTULO Psiquiatria como ciência cognitiva/psq as cog.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Structural imaging and cognition MEDIATION MODEL/Analysis/2016-04-29 Modelling IQ - EDUCATION MEDIATION.R",
+		"/etc/environment",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Structural imaging and cognition MEDIATION MODEL/Analysis/2016-05-09 Modelling IQ - structural neuroimaging.R",
+		"/home/luis/Dropbox/Documentos/Coding/LaTeX/tufte.cls",
+		"/home/luis/Dropbox/Documentos/Coding/autocorrimp.py",
+		"/home/luis/Dropbox/Documentos/Coding/everpadsync.sh",
+		"/home/luis/Dropbox/Documentos/Coding/scaling down.md",
+		"/tmp/mozilla_luis0/shotwell-0.25.3.news",
+		"/tmp/torrent-stream/2546b1857d1680930b9371b4b054567eda31e2c5/Ghost in the Shell 2 Innocence (2004) 720p BluRay Ita Jap Ac3 x265-NAHOM/info.txt",
+		"/home/luis/.config/sublime-text-3/Packages/MarkdownEditing/Bold and Italic Markers.tmPreferences",
+		"/home/luis/.config/psd/psd.conf",
+		"/tmp/teste.md",
+		"/tmp/teste.tex",
+		"/home/luis/.megafuse",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/07_moderation.md",
+		"/home/luis/.pandoc/README.markdown",
+		"/tmp/test.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/.08_mediation.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/Makefile~",
+		"/tmp/acronyms.py",
+		"/C/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/01_frontmatter.md",
+		"/C/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/05_intro.md",
+		"/C/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/12_conclusion.md",
+		"/C/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/Makefile",
+		"/C/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/00_metadata.md",
+		"/C/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/acronyms.py",
+		"/C/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/06_methods.md",
+		"/C/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/09_DTI_moderation.md",
+		"/C/Users/554UU-lfernado/Desktop/Nusdast/CC0212_0/FreeSurfer_v5-3-0/stats/lh.aparc.stats",
+		"/C/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/11_Psychiatry_As_Special.md",
+		"/media/elementary/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/06_intro.md",
+		"/media/elementary/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/00_metadata.md",
+		"/media/elementary/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/10_RDoC_shift.md",
+		"/media/elementary/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/11_Psychiatry_As_Special.md",
+		"/home/luis/temp.md",
+		"/tmp/Butter/70cfcd2e3623f221ec82314f95f75a4ac5ba671e/Snowden.2016.720p.WEBRip.x264.AAC-ETRG/Torrent Downloaded From ExtraTorrent.cc.vtt",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/09_methods.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/04_acknowled.md",
+		"/tmp/temp.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/10_RDoC_shift.md",
+		"/home/luis/.config/sublime-text-3/Packages/User/LanguageTool.sublime-settings",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/14_appendix2.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/11_Psychiatry_As_Special_Case_Of_Cognitive_Science.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/ARTIGO neuroimagem estrutural QI moderation/Sch moderates structural changes on IQ.R",
+		"/home/luis/.config/sublime-text-3/Packages/User/Package Control.cache/01524fae79697630d0454ba3fabd9414",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/03_abstract.md",
+		"/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/2016 SPECT SEP/Report with seven patients, four analyses.md",
+		"/media/elementary/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Link para Modelos/metropolis-beamer-template-crane.md",
+		"/media/elementary/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Link para Modelos/metropolis-beamer-template-seahorse.md",
+		"/home/elementary/Downloads/adrians presentation.md",
+		"/media/elementary/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Link para Modelos/metropolis-beamer-template-dark.md",
+		"/tmp/mozilla_elementary0/Cogsci.md",
+		"/tmp/tmpyqb7hj.beamer",
+		"/tmp/tmplahajv.beamer",
+		"/home/elementary/.config/sublime-text-3/Packages/User/Pandoc.sublime-settings",
+		"/media/elementary/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/SPECTs from CEP/meeting annotations subtractions.md",
+		"/media/elementary/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/SPECTs from CEP/meeting annotations.mdown",
+		"/media/elementary/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/11_Psychiatry_As_Special_Case_Of_Cognitive_Science.md",
+		"/C/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/SPECTs from CEP/meeting annotations.mdown",
+		"/C/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/09_methods.md",
+		"/C/Users/554UU-lfernado/Dropbox/PortableApps/SublimeText3/Data/Packages/Pandoc/Pandoc.sublime-settings",
+		"/C/Users/554UU-lfernado/Dropbox/PortableApps/SublimeText3/Data/Packages/User/Pandoc.sublime-settings",
+		"/home/elementary/.config/sublime-text-3/Packages/Pandoc/Pandoc.sublime-settings",
+		"/media/elementary/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/10_FEP_moderation.md",
+		"/media/elementary/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/ARTIGO neuroimagem estrutural QI moderation/FEP.md",
+		"/run/media/luis/MJRO1606/boot/grub/grub.cfg",
+		"/run/media/luis/MJRO1606/.disk/base_installable",
+		"/run/media/luis/MJRO1606/.disk/casper-uuid-generic",
+		"/run/media/luis/MJRO1606/.disk/casper-uuid-4.4.0-36-generic",
+		"/home/luis/.config/sublime-text-3/Packages/Pandoc/Pandoc.sublime-settings",
+		"/home/luis/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/luis/.config/sublime-text-3/Packages/User/Citer.sublime-settings",
+		"/home/luis/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/luis/.config/sublime-text-3/Packages/CiteBibtex/Default.sublime-keymap",
+		"/home/luis/.config/sublime-text-3/Packages/CiteBibtex/CiteBibtex.sublime-settings",
+		"/home/luis/.config/sublime-text-3/Packages/User/CiteBibtex.sublime-settings",
+		"/home/luis/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/luis/Downloads/Mathworks_Matlab_R2015a_Linux/README",
+		"/home/luis/Documentos/Vinda de meus pais/letter-boilerplate/makefile",
+		"/home/luis/Documentos/Vinda de meus pais/letter-boilerplate/letter.md"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 88.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"marr",
+			"Table",
+			"List",
+			"Table",
+			"Listing",
+			"marr",
+			"<em",
+			".\n",
+			"Red",
+			"acro",
+			"mvn",
+			"Standardized coefficients for each indicator per group",
+			"multipl",
+			"lessons learned",
+			"TOMM",
+			"par",
+			"confirmatory bias",
+			"-@",
+			"lies",
+			"For [@",
+			"For (@Mi",
+			"recent book",
+			"-@",
+			"Michael ",
+			"Gerrans",
+			"Table",
+			"\"{\"*\"}\"",
+			"{*}",
+			"analytical",
+			">",
+			"<",
+			"Psychiatric",
+			"bibliography",
+			"type",
+			"turn out",
+			"for",
+			"biblatex",
+			"biblates",
+			"boxes",
+			"margins",
+			"verbatim-in-note",
+			"verbatin-in-note",
+			"code",
+			"if(dir",
+			"mainfont",
+			"documentclass",
+			"margin",
+			"\n    "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "R/loadfiles.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 689,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								619,
+								619
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "r"
+							},
+							"draw_centered": false,
+							"draw_indent_guides": true,
+							"draw_white_space": "selection",
+							"fold_buttons": true,
+							"gutter": true,
+							"line_numbers": true,
+							"rulers":
+							[
+							],
+							"scroll_past_end": true,
+							"syntax": "Packages/R/R.sublime-syntax",
+							"word_wrap": "auto",
+							"wrap_width": 0
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "R/loadfreesurfer.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								187
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "r"
+							},
+							"draw_centered": false,
+							"draw_indent_guides": true,
+							"draw_white_space": "selection",
+							"fold_buttons": true,
+							"gutter": true,
+							"line_numbers": true,
+							"rulers":
+							[
+							],
+							"scroll_past_end": true,
+							"syntax": "Packages/R/R.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": "auto",
+							"wrap_width": 0
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 134.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.languagetool":
+	{
+		"height": 94.0
+	},
+	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"project": "sempsyhiatry.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/Documentos/Psiquiatria/Projetos em andamento/CAPITULO Introducao/introducao.sublime-workspace"
+			],
+			[
+				"cv",
+				"~/Dropbox/Documentos/Psiquiatria/Curriculum/markdown-cv/cv.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"dfw_mode": true,
+		"dfw_mode_prestine":
+		{
+			"draw_centered": false,
+			"draw_indent_guides": true,
+			"draw_white_space": "selection",
+			"fold_buttons_vis": true,
+			"gutter_vis": true,
+			"line_numbers_vis": true,
+			"menu_vis": true,
+			"minimap_vis": false,
+			"rulers":
+			[
+			],
+			"side_bar_vis": true,
+			"status_bar_vis": true,
+			"tabs_vis": true,
+			"wrap_width": 0
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

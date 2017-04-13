@@ -8,9 +8,10 @@
 
 dependencies <- function(dep){
     for (i in dep){
-        ifelse (i %in% installed.packages(), library(i, character.only=TRUE),
-                {
-                    install.packages(i)
-                })
+        if (i %in% installed.packages()){
+        	library(i, character.only=TRUE)
+        } else {
+        	install.packages(i)
+        }
     }
 }

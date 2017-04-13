@@ -10,5 +10,7 @@ loadFreeSurfer(x)
 \item{x}{= directory}
 }
 \description{
-The segmentations must be named aseg.allsegs
+The segmentations must be named aseg.allsegs, it will parse
+all files with .table extension. It can manage segmentations
+and parcellations.
 }
