@@ -12,6 +12,7 @@ dependencies <- function(dep){
         	library(i, character.only=TRUE)
         } else {
         	install.packages(i)
+        	library(i, character.only=TRUE)
         }
     }
 }
