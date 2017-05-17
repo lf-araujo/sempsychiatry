@@ -14,7 +14,7 @@
 write_descriptive_stats <- function ( vars, filename ) {
     for (i in names(vars)) {
         cat(paste0(i, "\n"), file=filename, append=TRUE)
-        cat(capture.output(describe(vars[,i])),
+        cat(capture.output(psych::describe(vars[,i])),
             file=filename, 
             sep="\n",append=TRUE)
     }

@@ -1,4 +1,4 @@
-#' Function to remove empty variables and NAs
+#' Description: A function to remove empty variables that might have ended up in the dataset after concatenating data.
 #' https://stackoverflow.com/questions/21530168/remove-columns-with-zero-values-from-a-dataframe
 #' @param df = dataframe
 #' @export

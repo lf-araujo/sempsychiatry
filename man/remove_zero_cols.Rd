@@ -2,7 +2,7 @@
 % Please edit documentation in R/remove-zero-cols.R
 \name{remove_zero_cols}
 \alias{remove_zero_cols}
-\title{Function to remove empty variables and NAs
+\title{Description: A function to remove empty variables that might have ended up in the dataset after concatenating data.
 https://stackoverflow.com/questions/21530168/remove-columns-with-zero-values-from-a-dataframe}
 \usage{
 remove_zero_cols(df)
@@ -11,6 +11,6 @@ remove_zero_cols(df)
 \item{df}{= dataframe}
 }
 \description{
-Function to remove empty variables and NAs
+Description: A function to remove empty variables that might have ended up in the dataset after concatenating data.
 https://stackoverflow.com/questions/21530168/remove-columns-with-zero-values-from-a-dataframe
 }

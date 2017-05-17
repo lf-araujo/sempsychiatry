@@ -1,8 +1,6 @@
 #' Function to anonymize datasets so to create MWEs
 #'
-#' This function takes a dataframe and creates a dummy dataset, but maintaining
-#' sintactical relationships between the variables. This has been tested with
-#' multivariate data and works.
+#' Is a function that easily anonymizes the dataset so to remove personal information identification. It is useful for the creation of minimal working examples allowing the researcher to to discuss the statistical findings with other colleagues without giving away sensitive information. Its advantage over the package anonimizer() is that it does a better job in keeping the variance and the relation between factors in the data. 
 #'
 #' Source: https://www.jaredknowles.com/journal/2013/5/27/writing-a-minimal-working-example-mwe-in-r
 #'

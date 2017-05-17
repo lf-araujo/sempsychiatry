@@ -10,8 +10,7 @@ dependencies(dep)
 \item{Conjunction}{of packages to check}
 }
 \description{
-This function check for dependencies, if installed they are left as is,
-otherwise they are installed
+This function can be used to load all packages required to SEM data analysis. One can pass package names as arguments and if these are not installed, they are download and installed. If they are in the system, they are not updated. The reason for this function is that updating packages can cause incompatibilities over time, as statistical packages are quickly updated by their owners. This approach makes sure to maintain the base installation as stable as possible.
 }
 \keyword{installation}
 \keyword{packages}

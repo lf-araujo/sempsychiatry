@@ -1,6 +1,6 @@
 #' Function used to load freesurfer data. 
 #'
-#' The segmentations must be named aseg.allsegs, it will parse
+#' A function to load required files in csv format in any subdirectory given as argument. It allows the user to easily  import FreeSurfer csv parcellations and segmentations.The segmentations must be named aseg.allsegs, it will parse
 #' all files with .table extension. It can manage segmentations
 #' and parcellations.
 #' @param x = directory
