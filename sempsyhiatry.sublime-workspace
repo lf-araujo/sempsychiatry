@@ -37,19 +37,10 @@
 			}
 		},
 		{
-			"file": "/media/budgie-remix/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Coding/R/documenting commands.R",
-			"settings":
-			{
-				"buffer_size": 259,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "R/loadfreesurfer.R",
 			"settings":
 			{
-				"buffer_size": 972,
+				"buffer_size": 1143,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -58,16 +49,41 @@
 			"file": "R/write-descriptive-stats.R",
 			"settings":
 			{
-				"buffer_size": 703,
+				"buffer_size": 710,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "\nR version 3.3.3 (2017-03-06) -- \"Another Canoe\"\nCopyright (C) 2017 The R Foundation for Statistical Computing\nPlatform: x86_64-pc-linux-gnu (64-bit)\n\nR é um software livre e vem sem GARANTIA ALGUMA.\nVocê pode redistribuí-lo sob certas circunstâncias.\nDigite 'license()' ou 'licence()' para detalhes de distribuição.\n\nR é um projeto colaborativo com muitos contribuidores.\nDigite 'contributors()' para obter mais informações e\n'citation()' para saber como citar o R ou pacotes do R em publicações.\n\nDigite 'demo()' para demonstrações, 'help()' para o sistema on-line de ajuda,\nou 'help.start()' para abrir o sistema de ajuda em HTML no seu navegador.\nDigite 'q()' para sair do R.\n\n> setwd(\"/home/luis/Dropbox/Documentos/Coding/R/sempsychiatry/\")\n> library(roxygen2)\n> \n> document()\nErro: não foi possível encontrar a função \"document\"\n> library(sempsychiatry)\n> \n> document()\nErro: não foi possível encontrar a função \"document\"\n> library(\"devtools\")\n> \n> document()\nUpdating sempsychiatry documentation\nLoading sempsychiatry\nWriting loadFreeSurfer.Rd\n> \nR version 3.3.3 (2017-03-06) -- \"Another Canoe\"\nCopyright (C) 2017 The R Foundation for Statistical Computing\nPlatform: x86_64-pc-linux-gnu (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\n  Natural language support but running in an English locale\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to cite R or R packages in publications.\n\nType 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n> \r<fernado/Dropbox/Documentos/Coding/R/sempsychiatry\")\n> library(roxygen2)\nError in library(roxygen2) : there is no package called ‘roxygen2’\n> library(\"devtools\")\n> document()\n‘roxygen2’ >= 5.0.0 must be installed for this functionality.\nWould you like to install it?\n\n1: Yes\n2: No\n\nSelection: \n\n***Repl Killed***\n1\n\n\n#############\n## RESTA\nR version 3.3.3 (2017-03-06) -- \"Another Canoe\"\nCopyright (C) 2017 The R Foundation for Statistical Computing\nPlatform: x86_64-pc-linux-gnu (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\n  Natural language support but running in an English locale\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to cite R or R packages in publications.\n\nType 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n> \r<fernado/Dropbox/Documentos/Coding/R/sempsychiatry\")\n> install.packages(\"roxigen2\")\nInstalling package into ‘/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3’\n(as ‘lib’ is unspecified)\n--- Please select a CRAN mirror for use in this session ---\nWarning message:\npackage ‘roxigen2’ is not available (for R version 3.3.3) \n> library(roxygen2)\nError in library(roxygen2) : there is no package called ‘roxygen2’\n> library(\"devtools\")\n> document()\n‘roxygen2’ >= 5.0.0 must be installed for this functionality.\nWould you like to install it?\n\n1: Yes\n2: No\n\nSelection: \n\n***Repl Killed***\nRT #\nR version 3.3.3 (2017-03-06) -- \"Another Canoe\"\nCopyright (C) 2017 The R Foundation for Statistical Computing\nPlatform: x86_64-pc-linux-gnu (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\n  Natural language support but running in an English locale\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to cite R or R packages in publications.\n\nType 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n> devtools::install_github(\"klutometis/roxygen\")\nDownloading GitHub repo klutometis/roxygen@master\nfrom URL https://api.github.com/repos/klutometis/roxygen/zipball/master\nInstalling roxygen2\ntrying URL 'https://cran.rstudio.com/src/contrib/brew_1.0-6.tar.gz'\nContent type 'application/x-gzip' length 83315 bytes (81 KB)\n==================================================\ndownloaded 81 KB\n\nInstalling brew\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL '/tmp/RtmpTk5MKD/devtools242f149c50fe/brew'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘brew’ ...\n** R\n** inst\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** testing if installed package can be loaded\n* DONE (brew)\ntrying URL 'https://cran.rstudio.com/src/contrib/commonmark_1.2.tar.gz'\nContent type 'application/x-gzip' length 124270 bytes (121 KB)\n==================================================\ndownloaded 121 KB\n\nInstalling commonmark\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL '/tmp/RtmpTk5MKD/devtools242f7f7053bf/commonmark'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘commonmark’ ...\n** package ‘commonmark’ successfully unpacked and MD5 sums checked\n** libs\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extensions.c -o extensions.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wrapper.c -o wrapper.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/cmark.c -o cmark/cmark.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/node.c -o cmark/node.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/iterator.c -o cmark/iterator.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/blocks.c -o cmark/blocks.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/inlines.c -o cmark/inlines.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/scanners.c -o cmark/scanners.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/utf8.c -o cmark/utf8.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/buffer.c -o cmark/buffer.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/references.c -o cmark/references.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/render.c -o cmark/render.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/man.c -o cmark/man.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/xml.c -o cmark/xml.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/html.c -o cmark/html.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/commonmark.c -o cmark/commonmark.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/latex.c -o cmark/latex.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/houdini_href_e.c -o cmark/houdini_href_e.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/houdini_html_e.c -o cmark/houdini_html_e.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/houdini_html_u.c -o cmark/houdini_html_u.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/cmark_ctype.c -o cmark/cmark_ctype.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/arena.c -o cmark/arena.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/linked_list.c -o cmark/linked_list.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/plugin.c -o cmark/plugin.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/registry.c -o cmark/registry.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/syntax_extension.c -o cmark/syntax_extension.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extensions/autolink.c -o extensions/autolink.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extensions/core-extensions.c -o extensions/core-extensions.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extensions/ext_scanners.c -o extensions/ext_scanners.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extensions/strikethrough.c -o extensions/strikethrough.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extensions/table.c -o extensions/table.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extensions/tagfilter.c -o extensions/tagfilter.o\nar rcs libstatcmark.a cmark/cmark.o cmark/node.o cmark/iterator.o cmark/blocks.o cmark/inlines.o cmark/scanners.o cmark/utf8.o cmark/buffer.o cmark/references.o cmark/render.o cmark/man.o cmark/xml.o cmark/html.o cmark/commonmark.o cmark/latex.o cmark/houdini_href_e.o cmark/houdini_html_e.o cmark/houdini_html_u.o cmark/cmark_ctype.o cmark/arena.o cmark/html.o cmark/linked_list.o cmark/plugin.o cmark/registry.o cmark/syntax_extension.o extensions/autolink.o extensions/core-extensions.o extensions/ext_scanners.o extensions/strikethrough.o extensions/table.o extensions/tagfilter.o\ngcc -std=gnu99 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o commonmark.so extensions.o wrapper.o -L. -lstatcmark -L/usr/lib/R/lib -lR\ninstalling to /home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/commonmark/libs\n** R\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** testing if installed package can be loaded\n* DONE (commonmark)\ntrying URL 'https://cran.rstudio.com/src/contrib/desc_1.1.0.tar.gz'\nContent type 'application/x-gzip' length 59568 bytes (58 KB)\n==================================================\ndownloaded 58 KB\n\nInstalling desc\ntrying URL 'https://cran.rstudio.com/src/contrib/crayon_1.3.2.tar.gz'\nContent type 'application/x-gzip' length 656168 bytes (640 KB)\n==================================================\ndownloaded 640 KB\n\nInstalling crayon\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL '/tmp/RtmpTk5MKD/devtools242f7cff1a1b/crayon'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘crayon’ ...\n** package ‘crayon’ successfully unpacked and MD5 sums checked\n** R\n** inst\n** tests\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** testing if installed package can be loaded\n* DONE (crayon)\ntrying URL 'https://cran.rstudio.com/src/contrib/rprojroot_1.2.tar.gz'\nContent type 'application/x-gzip' length 42063 bytes (41 KB)\n==================================================\ndownloaded 41 KB\n\nInstalling rprojroot\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL '/tmp/RtmpTk5MKD/devtools242f6e947e9f/rprojroot'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘rprojroot’ ...\n** package ‘rprojroot’ successfully unpacked and MD5 sums checked\n** R\n** inst\n** tests\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** installing vignettes\n** testing if installed package can be loaded\n* DONE (rprojroot)\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL '/tmp/RtmpTk5MKD/devtools242f1fc357a4/desc'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘desc’ ...\n** package ‘desc’ successfully unpacked and MD5 sums checked\n** R\n** inst\n** tests\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** testing if installed package can be loaded\n* DONE (desc)\ntrying URL 'https://cran.rstudio.com/src/contrib/xml2_1.1.1.tar.gz'\nContent type 'application/x-gzip' length 244643 bytes (238 KB)\n==================================================\ndownloaded 238 KB\n\nInstalling xml2\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL '/tmp/RtmpTk5MKD/devtools242f2d33eeea/xml2'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘xml2’ ...\n** package ‘xml2’ successfully unpacked and MD5 sums checked\nPackage libxml-2.0 was not found in the pkg-config search path.\nPerhaps you should add the directory containing `libxml-2.0.pc'\nto the PKG_CONFIG_PATH environment variable\nNo package 'libxml-2.0' found\nPackage libxml-2.0 was not found in the pkg-config search path.\nPerhaps you should add the directory containing `libxml-2.0.pc'\nto the PKG_CONFIG_PATH environment variable\nNo package 'libxml-2.0' found\nUsing PKG_CFLAGS=\nUsing PKG_LIBS=-lxml2\n------------------------- ANTICONF ERROR ---------------------------\nConfiguration failed because libxml-2.0 was not found. Try installing:\n * deb: libxml2-dev (Debian, Ubuntu, etc)\n * rpm: libxml2-devel (Fedora, CentOS, RHEL)\n * csw: libxml2_dev (Solaris)\nIf libxml-2.0 is already installed, check that 'pkg-config' is in your\nPATH and PKG_CONFIG_PATH contains a libxml-2.0.pc file. If pkg-config\nis unavailable you can set INCLUDE_DIR and LIB_DIR manually via:\nR CMD INSTALL --configure-vars='INCLUDE_DIR=... LIB_DIR=...'\n--------------------------------------------------------------------\nERROR: configuration failed for package ‘xml2’\n* removing ‘/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/xml2’\nError: Command failed (1)\n> \n> devtools::install_github(\"klutometis/roxygen\")\nDownloading GitHub repo klutometis/roxygen@master\nfrom URL https://api.github.com/repos/klutometis/roxygen/zipball/master\nInstalling roxygen2\ntrying URL 'https://cran.rstudio.com/src/contrib/xml2_1.1.1.tar.gz'\nContent type 'application/x-gzip' length 244643 bytes (238 KB)\n==================================================\ndownloaded 238 KB\n\nInstalling xml2\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL '/tmp/RtmpTk5MKD/devtools242f3baf74e3/xml2'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘xml2’ ...\n** package ‘xml2’ successfully unpacked and MD5 sums checked\nFound pkg-config cflags and libs!\nUsing PKG_CFLAGS=-I/usr/include/libxml2\nUsing PKG_LIBS=-lxml2\n** libs\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c connection.cpp -o connection.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_doc.cpp -o xml2_doc.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_init.cpp -o xml2_init.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_namespace.cpp -o xml2_namespace.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_node.cpp -o xml2_node.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_output.cpp -o xml2_output.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_schema.cpp -o xml2_schema.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_url.cpp -o xml2_url.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_xpath.cpp -o xml2_xpath.o\ng++ -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o xml2.so RcppExports.o connection.o xml2_doc.o xml2_init.o xml2_namespace.o xml2_node.o xml2_output.o xml2_schema.o xml2_url.o xml2_xpath.o -lxml2 -L/usr/lib/R/lib -lR\ninstalling to /home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/xml2/libs\n** R\n** inst\n** tests\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** installing vignettes\n** testing if installed package can be loaded\n* DONE (xml2)\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL  \\\n  '/tmp/RtmpTk5MKD/devtools242f74f88b87/klutometis-roxygen-54f306d'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘roxygen2’ ...\n** libs\ng++ -I/usr/share/R/include -DNDEBUG   -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o\ng++ -I/usr/share/R/include -DNDEBUG   -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c isComplete.cpp -o isComplete.o\ng++ -I/usr/share/R/include -DNDEBUG   -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c leadingSpaces.cpp -o leadingSpaces.o\ng++ -I/usr/share/R/include -DNDEBUG   -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parser2.cpp -o parser2.o\ng++ -I/usr/share/R/include -DNDEBUG   -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wrapString.cpp -o wrapString.o\ng++ -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o roxygen2.so RcppExports.o isComplete.o leadingSpaces.o parser2.o wrapString.o -L/usr/lib/R/lib -lR\ninstalling to /home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/roxygen2/libs\n** R\n** tests\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** installing vignettes\n** testing if installed package can be loaded\n* DONE (roxygen2)\n> \n> #\n> #############1\n> 1\n[1] 1\n> \n> #\n> library(\"devtools\")\n> \n> document()\nError: Could not find package root.\n> \n> \r<fernado/Dropbox/Documentos/Coding/R/sempsychiatry\")\n> \n> document()\nUpdating sempsychiatry documentation\nLoading sempsychiatry\n> \n> \n#############\n## RESTART ##\n#############\n\nR version 3.3.3 (2017-03-06) -- \"Another Canoe\"\nCopyright (C) 2017 The R Foundation for Statistical Computing\nPlatform: x86_64-pc-linux-gnu (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\n  Natural language support but running in an English locale\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to cite R or R packages in publications.\n\nType 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n> \r<fernado/Dropbox/Documentos/Coding/R/sempsychiatry\")\n> \n> library(roxygen2)\n> library(\"devtools\")\n> document()\nUpdating sempsychiatry documentation\nLoading sempsychiatry\nWriting NAMESPACE\nWriting write_descriptive_stats.Rd\n> \n> ",
+			"file": "R/genotypestoordinals.R",
 			"settings":
 			{
-				"buffer_size": 28099,
+				"buffer_size": 396,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/14_appendix.md",
+			"settings":
+			{
+				"buffer_size": 27988,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/luis/Dropbox/Documentos/Coding/R/documenting commands.R",
+			"settings":
+			{
+				"buffer_size": 212,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\nR version 3.3.3 (2017-03-06) -- \"Another Canoe\"\nCopyright (C) 2017 The R Foundation for Statistical Computing\nPlatform: x86_64-pc-linux-gnu (64-bit)\n\nR é um software livre e vem sem GARANTIA ALGUMA.\nVocê pode redistribuí-lo sob certas circunstâncias.\nDigite 'license()' ou 'licence()' para detalhes de distribuição.\n\nR é um projeto colaborativo com muitos contribuidores.\nDigite 'contributors()' para obter mais informações e\n'citation()' para saber como citar o R ou pacotes do R em publicações.\n\nDigite 'demo()' para demonstrações, 'help()' para o sistema on-line de ajuda,\nou 'help.start()' para abrir o sistema de ajuda em HTML no seu navegador.\nDigite 'q()' para sair do R.\n\n> setwd(\"/home/luis/Dropbox/Documentos/Coding/R/sempsychiatry/\")\n> library(roxygen2)\n> \n> document()\nErro: não foi possível encontrar a função \"document\"\n> library(sempsychiatry)\n> \n> document()\nErro: não foi possível encontrar a função \"document\"\n> library(\"devtools\")\n> \n> document()\nUpdating sempsychiatry documentation\nLoading sempsychiatry\nWriting loadFreeSurfer.Rd\n> \nR version 3.3.3 (2017-03-06) -- \"Another Canoe\"\nCopyright (C) 2017 The R Foundation for Statistical Computing\nPlatform: x86_64-pc-linux-gnu (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\n  Natural language support but running in an English locale\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to cite R or R packages in publications.\n\nType 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n> \r<fernado/Dropbox/Documentos/Coding/R/sempsychiatry\")\n> library(roxygen2)\nError in library(roxygen2) : there is no package called ‘roxygen2’\n> library(\"devtools\")\n> document()\n‘roxygen2’ >= 5.0.0 must be installed for this functionality.\nWould you like to install it?\n\n1: Yes\n2: No\n\nSelection: \n\n***Repl Killed***\n1\n\n\n#############\n## RESTA\nR version 3.3.3 (2017-03-06) -- \"Another Canoe\"\nCopyright (C) 2017 The R Foundation for Statistical Computing\nPlatform: x86_64-pc-linux-gnu (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\n  Natural language support but running in an English locale\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to cite R or R packages in publications.\n\nType 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n> \r<fernado/Dropbox/Documentos/Coding/R/sempsychiatry\")\n> install.packages(\"roxigen2\")\nInstalling package into ‘/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3’\n(as ‘lib’ is unspecified)\n--- Please select a CRAN mirror for use in this session ---\nWarning message:\npackage ‘roxigen2’ is not available (for R version 3.3.3) \n> library(roxygen2)\nError in library(roxygen2) : there is no package called ‘roxygen2’\n> library(\"devtools\")\n> document()\n‘roxygen2’ >= 5.0.0 must be installed for this functionality.\nWould you like to install it?\n\n1: Yes\n2: No\n\nSelection: \n\n***Repl Killed***\nRT #\nR version 3.3.3 (2017-03-06) -- \"Another Canoe\"\nCopyright (C) 2017 The R Foundation for Statistical Computing\nPlatform: x86_64-pc-linux-gnu (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\n  Natural language support but running in an English locale\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to cite R or R packages in publications.\n\nType 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n> devtools::install_github(\"klutometis/roxygen\")\nDownloading GitHub repo klutometis/roxygen@master\nfrom URL https://api.github.com/repos/klutometis/roxygen/zipball/master\nInstalling roxygen2\ntrying URL 'https://cran.rstudio.com/src/contrib/brew_1.0-6.tar.gz'\nContent type 'application/x-gzip' length 83315 bytes (81 KB)\n==================================================\ndownloaded 81 KB\n\nInstalling brew\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL '/tmp/RtmpTk5MKD/devtools242f149c50fe/brew'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘brew’ ...\n** R\n** inst\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** testing if installed package can be loaded\n* DONE (brew)\ntrying URL 'https://cran.rstudio.com/src/contrib/commonmark_1.2.tar.gz'\nContent type 'application/x-gzip' length 124270 bytes (121 KB)\n==================================================\ndownloaded 121 KB\n\nInstalling commonmark\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL '/tmp/RtmpTk5MKD/devtools242f7f7053bf/commonmark'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘commonmark’ ...\n** package ‘commonmark’ successfully unpacked and MD5 sums checked\n** libs\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extensions.c -o extensions.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wrapper.c -o wrapper.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/cmark.c -o cmark/cmark.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/node.c -o cmark/node.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/iterator.c -o cmark/iterator.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/blocks.c -o cmark/blocks.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/inlines.c -o cmark/inlines.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/scanners.c -o cmark/scanners.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/utf8.c -o cmark/utf8.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/buffer.c -o cmark/buffer.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/references.c -o cmark/references.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/render.c -o cmark/render.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/man.c -o cmark/man.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/xml.c -o cmark/xml.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/html.c -o cmark/html.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/commonmark.c -o cmark/commonmark.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/latex.c -o cmark/latex.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/houdini_href_e.c -o cmark/houdini_href_e.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/houdini_html_e.c -o cmark/houdini_html_e.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/houdini_html_u.c -o cmark/houdini_html_u.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/cmark_ctype.c -o cmark/cmark_ctype.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/arena.c -o cmark/arena.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/linked_list.c -o cmark/linked_list.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/plugin.c -o cmark/plugin.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/registry.c -o cmark/registry.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cmark/syntax_extension.c -o cmark/syntax_extension.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extensions/autolink.c -o extensions/autolink.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extensions/core-extensions.c -o extensions/core-extensions.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extensions/ext_scanners.c -o extensions/ext_scanners.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extensions/strikethrough.c -o extensions/strikethrough.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extensions/table.c -o extensions/table.o\ngcc -std=gnu99 -I/usr/share/R/include -DNDEBUG -Icmark -I.     -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extensions/tagfilter.c -o extensions/tagfilter.o\nar rcs libstatcmark.a cmark/cmark.o cmark/node.o cmark/iterator.o cmark/blocks.o cmark/inlines.o cmark/scanners.o cmark/utf8.o cmark/buffer.o cmark/references.o cmark/render.o cmark/man.o cmark/xml.o cmark/html.o cmark/commonmark.o cmark/latex.o cmark/houdini_href_e.o cmark/houdini_html_e.o cmark/houdini_html_u.o cmark/cmark_ctype.o cmark/arena.o cmark/html.o cmark/linked_list.o cmark/plugin.o cmark/registry.o cmark/syntax_extension.o extensions/autolink.o extensions/core-extensions.o extensions/ext_scanners.o extensions/strikethrough.o extensions/table.o extensions/tagfilter.o\ngcc -std=gnu99 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o commonmark.so extensions.o wrapper.o -L. -lstatcmark -L/usr/lib/R/lib -lR\ninstalling to /home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/commonmark/libs\n** R\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** testing if installed package can be loaded\n* DONE (commonmark)\ntrying URL 'https://cran.rstudio.com/src/contrib/desc_1.1.0.tar.gz'\nContent type 'application/x-gzip' length 59568 bytes (58 KB)\n==================================================\ndownloaded 58 KB\n\nInstalling desc\ntrying URL 'https://cran.rstudio.com/src/contrib/crayon_1.3.2.tar.gz'\nContent type 'application/x-gzip' length 656168 bytes (640 KB)\n==================================================\ndownloaded 640 KB\n\nInstalling crayon\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL '/tmp/RtmpTk5MKD/devtools242f7cff1a1b/crayon'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘crayon’ ...\n** package ‘crayon’ successfully unpacked and MD5 sums checked\n** R\n** inst\n** tests\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** testing if installed package can be loaded\n* DONE (crayon)\ntrying URL 'https://cran.rstudio.com/src/contrib/rprojroot_1.2.tar.gz'\nContent type 'application/x-gzip' length 42063 bytes (41 KB)\n==================================================\ndownloaded 41 KB\n\nInstalling rprojroot\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL '/tmp/RtmpTk5MKD/devtools242f6e947e9f/rprojroot'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘rprojroot’ ...\n** package ‘rprojroot’ successfully unpacked and MD5 sums checked\n** R\n** inst\n** tests\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** installing vignettes\n** testing if installed package can be loaded\n* DONE (rprojroot)\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL '/tmp/RtmpTk5MKD/devtools242f1fc357a4/desc'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘desc’ ...\n** package ‘desc’ successfully unpacked and MD5 sums checked\n** R\n** inst\n** tests\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** testing if installed package can be loaded\n* DONE (desc)\ntrying URL 'https://cran.rstudio.com/src/contrib/xml2_1.1.1.tar.gz'\nContent type 'application/x-gzip' length 244643 bytes (238 KB)\n==================================================\ndownloaded 238 KB\n\nInstalling xml2\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL '/tmp/RtmpTk5MKD/devtools242f2d33eeea/xml2'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘xml2’ ...\n** package ‘xml2’ successfully unpacked and MD5 sums checked\nPackage libxml-2.0 was not found in the pkg-config search path.\nPerhaps you should add the directory containing `libxml-2.0.pc'\nto the PKG_CONFIG_PATH environment variable\nNo package 'libxml-2.0' found\nPackage libxml-2.0 was not found in the pkg-config search path.\nPerhaps you should add the directory containing `libxml-2.0.pc'\nto the PKG_CONFIG_PATH environment variable\nNo package 'libxml-2.0' found\nUsing PKG_CFLAGS=\nUsing PKG_LIBS=-lxml2\n------------------------- ANTICONF ERROR ---------------------------\nConfiguration failed because libxml-2.0 was not found. Try installing:\n * deb: libxml2-dev (Debian, Ubuntu, etc)\n * rpm: libxml2-devel (Fedora, CentOS, RHEL)\n * csw: libxml2_dev (Solaris)\nIf libxml-2.0 is already installed, check that 'pkg-config' is in your\nPATH and PKG_CONFIG_PATH contains a libxml-2.0.pc file. If pkg-config\nis unavailable you can set INCLUDE_DIR and LIB_DIR manually via:\nR CMD INSTALL --configure-vars='INCLUDE_DIR=... LIB_DIR=...'\n--------------------------------------------------------------------\nERROR: configuration failed for package ‘xml2’\n* removing ‘/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/xml2’\nError: Command failed (1)\n> \n> devtools::install_github(\"klutometis/roxygen\")\nDownloading GitHub repo klutometis/roxygen@master\nfrom URL https://api.github.com/repos/klutometis/roxygen/zipball/master\nInstalling roxygen2\ntrying URL 'https://cran.rstudio.com/src/contrib/xml2_1.1.1.tar.gz'\nContent type 'application/x-gzip' length 244643 bytes (238 KB)\n==================================================\ndownloaded 238 KB\n\nInstalling xml2\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL '/tmp/RtmpTk5MKD/devtools242f3baf74e3/xml2'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘xml2’ ...\n** package ‘xml2’ successfully unpacked and MD5 sums checked\nFound pkg-config cflags and libs!\nUsing PKG_CFLAGS=-I/usr/include/libxml2\nUsing PKG_LIBS=-lxml2\n** libs\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c connection.cpp -o connection.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_doc.cpp -o xml2_doc.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_init.cpp -o xml2_init.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_namespace.cpp -o xml2_namespace.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_node.cpp -o xml2_node.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_output.cpp -o xml2_output.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_schema.cpp -o xml2_schema.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_url.cpp -o xml2_url.o\ng++ -I/usr/share/R/include -DNDEBUG -I../inst/include -I/usr/include/libxml2  -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\" -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/BH/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xml2_xpath.cpp -o xml2_xpath.o\ng++ -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o xml2.so RcppExports.o connection.o xml2_doc.o xml2_init.o xml2_namespace.o xml2_node.o xml2_output.o xml2_schema.o xml2_url.o xml2_xpath.o -lxml2 -L/usr/lib/R/lib -lR\ninstalling to /home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/xml2/libs\n** R\n** inst\n** tests\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** installing vignettes\n** testing if installed package can be loaded\n* DONE (xml2)\n'/usr/lib/R/bin/R' --no-site-file --no-environ --no-save --no-restore --quiet  \\\n  CMD INSTALL  \\\n  '/tmp/RtmpTk5MKD/devtools242f74f88b87/klutometis-roxygen-54f306d'  \\\n  --library='/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3'  \\\n  --install-tests \n\n* installing *source* package ‘roxygen2’ ...\n** libs\ng++ -I/usr/share/R/include -DNDEBUG   -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o\ng++ -I/usr/share/R/include -DNDEBUG   -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c isComplete.cpp -o isComplete.o\ng++ -I/usr/share/R/include -DNDEBUG   -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c leadingSpaces.cpp -o leadingSpaces.o\ng++ -I/usr/share/R/include -DNDEBUG   -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c parser2.cpp -o parser2.o\ng++ -I/usr/share/R/include -DNDEBUG   -I\"/home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/Rcpp/include\"   -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-uDrdxB/r-base-3.3.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wrapString.cpp -o wrapString.o\ng++ -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o roxygen2.so RcppExports.o isComplete.o leadingSpaces.o parser2.o wrapString.o -L/usr/lib/R/lib -lR\ninstalling to /home/budgie-remix/R/x86_64-pc-linux-gnu-library/3.3/roxygen2/libs\n** R\n** tests\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** installing vignettes\n** testing if installed package can be loaded\n* DONE (roxygen2)\n> \n> #\n> #############1\n> 1\n[1] 1\n> \n> #\n> library(\"devtools\")\n> \n> document()\nError: Could not find package root.\n> \n> \r<fernado/Dropbox/Documentos/Coding/R/sempsychiatry\")\n> \n> document()\nUpdating sempsychiatry documentation\nLoading sempsychiatry\n> \n> \n#############\n## RESTART ##\n#############\n\nR version 3.3.3 (2017-03-06) -- \"Another Canoe\"\nCopyright (C) 2017 The R Foundation for Statistical Computing\nPlatform: x86_64-pc-linux-gnu (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\n  Natural language support but running in an English locale\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to cite R or R packages in publications.\n\nType 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n> \r<fernado/Dropbox/Documentos/Coding/R/sempsychiatry\")\n> \n> library(roxygen2)\n> library(\"devtools\")\n> document()\nUpdating sempsychiatry documentation\nLoading sempsychiatry\nWriting NAMESPACE\nWriting write_descriptive_stats.Rd\n> \n> \nR version 3.4.0 (2017-04-21) -- \"You Stupid Darkness\"\nCopyright (C) 2017 The R Foundation for Statistical Computing\nPlatform: x86_64-pc-linux-gnu (64-bit)\n\nR é um software livre e vem sem GARANTIA ALGUMA.\nVocê pode redistribuí-lo sob certas circunstâncias.\nDigite 'license()' ou 'licence()' para detalhes de distribuição.\n\nR é um projeto colaborativo com muitos contribuidores.\nDigite 'contributors()' para obter mais informações e\n'citation()' para saber como citar o R ou pacotes do R em publicações.\n\nDigite 'demo()' para demonstrações, 'help()' para o sistema on-line de ajuda,\nou 'help.start()' para abrir o sistema de ajuda em HTML no seu navegador.\nDigite 'q()' para sair do R.\n\n> setwd(\"/home/luis/Dropbox/Documentos/Coding/R/sempsychiatry\")\n> \n> library(roxygen2)\nError in library(roxygen2) : there is no package called ‘roxygen2’\n> library(\"devtools\")\n> document()\n‘roxygen2’ >= 5.0.0 must be installed for this functionality.\nWould you like to install it?\n\n1: Yes\n2: No\n\nSelection: 1\nInstalling package into ‘/home/luis/R/x86_64-pc-linux-gnu-library/3.4’\n(as ‘lib’ is unspecified)\n--- Please select a CRAN mirror for use in this session ---\nalso installing the dependencies ‘crayon’, ‘rprojroot’, ‘brew’, ‘desc’, ‘commonmark’, ‘xml2’\n\ntentando a URL 'https://mirror.aarnet.edu.au/pub/CRAN/src/contrib/crayon_1.3.2.tar.gz'\nContent type 'application/x-gzip' length 656168 bytes (640 KB)\n==================================================\ndownloaded 640 KB\n\ntentando a URL 'https://mirror.aarnet.edu.au/pub/CRAN/src/contrib/rprojroot_1.2.tar.gz'\nContent type 'application/x-gzip' length 42063 bytes (41 KB)\n==================================================\ndownloaded 41 KB\n\ntentando a URL 'https://mirror.aarnet.edu.au/pub/CRAN/src/contrib/brew_1.0-6.tar.gz'\nContent type 'application/x-gzip' length 83315 bytes (81 KB)\n==================================================\ndownloaded 81 KB\n\ntentando a URL 'https://mirror.aarnet.edu.au/pub/CRAN/src/contrib/desc_1.1.0.tar.gz'\nContent type 'application/x-gzip' length 59568 bytes (58 KB)\n==================================================\ndownloaded 58 KB\n\ntentando a URL 'https://mirror.aarnet.edu.au/pub/CRAN/src/contrib/commonmark_1.2.tar.gz'\nContent type 'application/x-gzip' length 124270 bytes (121 KB)\n==================================================\ndownloaded 121 KB\n\ntentando a URL 'https://mirror.aarnet.edu.au/pub/CRAN/src/contrib/xml2_1.1.1.tar.gz'\nContent type 'application/x-gzip' length 244643 bytes (238 KB)\n==================================================\ndownloaded 238 KB\n\ntentando a URL 'https://mirror.aarnet.edu.au/pub/CRAN/src/contrib/roxygen2_6.0.1.tar.gz'\nContent type 'application/x-gzip' length 150580 bytes (147 KB)\n==================================================\ndownloaded 147 KB\n\n* installing *source* package ‘crayon’ ...\n** package ‘crayon’ successfully unpacked and MD5 sums checked\n** R\n** inst\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** testing if installed package can be loaded\n* DONE (crayon)\n* installing *source* package ‘rprojroot’ ...\n** package ‘rprojroot’ successfully unpacked and MD5 sums checked\n** R\n** inst\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** installing vignettes\n** testing if installed package can be loaded\n* DONE (rprojroot)\n* installing *source* package ‘brew’ ...\n** R\n** inst\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** testing if installed package can be loaded\n* DONE (brew)\n* installing *source* package ‘commonmark’ ...\n** package ‘commonmark’ successfully unpacked and MD5 sums checked\n** libs\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c extensions.c -o extensions.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c wrapper.c -o wrapper.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/cmark.c -o cmark/cmark.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/node.c -o cmark/node.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/iterator.c -o cmark/iterator.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/blocks.c -o cmark/blocks.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/inlines.c -o cmark/inlines.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/scanners.c -o cmark/scanners.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/utf8.c -o cmark/utf8.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/buffer.c -o cmark/buffer.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/references.c -o cmark/references.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/render.c -o cmark/render.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/man.c -o cmark/man.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/xml.c -o cmark/xml.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/html.c -o cmark/html.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/commonmark.c -o cmark/commonmark.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/latex.c -o cmark/latex.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/houdini_href_e.c -o cmark/houdini_href_e.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/houdini_html_e.c -o cmark/houdini_html_e.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/houdini_html_u.c -o cmark/houdini_html_u.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/cmark_ctype.c -o cmark/cmark_ctype.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/arena.c -o cmark/arena.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/linked_list.c -o cmark/linked_list.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/plugin.c -o cmark/plugin.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/registry.c -o cmark/registry.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c cmark/syntax_extension.c -o cmark/syntax_extension.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c extensions/autolink.c -o extensions/autolink.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c extensions/core-extensions.c -o extensions/core-extensions.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c extensions/ext_scanners.c -o extensions/ext_scanners.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c extensions/strikethrough.c -o extensions/strikethrough.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c extensions/table.c -o extensions/table.o\ngcc -I/usr/include/R/ -DNDEBUG -Icmark -I.  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c extensions/tagfilter.c -o extensions/tagfilter.o\nar rcs libstatcmark.a cmark/cmark.o cmark/node.o cmark/iterator.o cmark/blocks.o cmark/inlines.o cmark/scanners.o cmark/utf8.o cmark/buffer.o cmark/references.o cmark/render.o cmark/man.o cmark/xml.o cmark/html.o cmark/commonmark.o cmark/latex.o cmark/houdini_href_e.o cmark/houdini_html_e.o cmark/houdini_html_u.o cmark/cmark_ctype.o cmark/arena.o cmark/html.o cmark/linked_list.o cmark/plugin.o cmark/registry.o cmark/syntax_extension.o extensions/autolink.o extensions/core-extensions.o extensions/ext_scanners.o extensions/strikethrough.o extensions/table.o extensions/tagfilter.o\ngcc -shared -L/usr/lib64/R/lib -Wl,-O1,--sort-common,--as-needed,-z,relro -o commonmark.so extensions.o wrapper.o -L. -lstatcmark -L/usr/lib64/R/lib -lR\ninstalling to /home/luis/R/x86_64-pc-linux-gnu-library/3.4/commonmark/libs\n** R\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** testing if installed package can be loaded\n* DONE (commonmark)\n* installing *source* package ‘xml2’ ...\n** package ‘xml2’ successfully unpacked and MD5 sums checked\nFound pkg-config cflags and libs!\nUsing PKG_CFLAGS=-I/usr/include/libxml2\nUsing PKG_LIBS=-lxml2 -lz -llzma -licui18n -licuuc -licudata -lm -ldl\n** libs\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include -I/usr/include/libxml2 -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/BH/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c RcppExports.cpp -o RcppExports.o\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include -I/usr/include/libxml2 -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/BH/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c connection.cpp -o connection.o\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include -I/usr/include/libxml2 -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/BH/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c xml2_doc.cpp -o xml2_doc.o\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include -I/usr/include/libxml2 -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/BH/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c xml2_init.cpp -o xml2_init.o\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include -I/usr/include/libxml2 -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/BH/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c xml2_namespace.cpp -o xml2_namespace.o\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include -I/usr/include/libxml2 -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/BH/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c xml2_node.cpp -o xml2_node.o\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include -I/usr/include/libxml2 -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/BH/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c xml2_output.cpp -o xml2_output.o\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include -I/usr/include/libxml2 -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/BH/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c xml2_schema.cpp -o xml2_schema.o\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include -I/usr/include/libxml2 -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/BH/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c xml2_url.cpp -o xml2_url.o\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include -I/usr/include/libxml2 -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/BH/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c xml2_xpath.cpp -o xml2_xpath.o\ng++ -shared -L/usr/lib64/R/lib -Wl,-O1,--sort-common,--as-needed,-z,relro -o xml2.so RcppExports.o connection.o xml2_doc.o xml2_init.o xml2_namespace.o xml2_node.o xml2_output.o xml2_schema.o xml2_url.o xml2_xpath.o -lxml2 -lz -llzma -licui18n -licuuc -licudata -lm -ldl -L/usr/lib64/R/lib -lR\ninstalling to /home/luis/R/x86_64-pc-linux-gnu-library/3.4/xml2/libs\n** R\n** inst\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** installing vignettes\n** testing if installed package can be loaded\n* DONE (xml2)\n* installing *source* package ‘desc’ ...\n** package ‘desc’ successfully unpacked and MD5 sums checked\n** R\n** inst\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** testing if installed package can be loaded\n* DONE (desc)\n* installing *source* package ‘roxygen2’ ...\n** package ‘roxygen2’ successfully unpacked and MD5 sums checked\n** libs\ng++  -I/usr/include/R/ -DNDEBUG  -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c RcppExports.cpp -o RcppExports.o\ng++  -I/usr/include/R/ -DNDEBUG  -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c isComplete.cpp -o isComplete.o\ng++  -I/usr/include/R/ -DNDEBUG  -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c leadingSpaces.cpp -o leadingSpaces.o\ng++  -I/usr/include/R/ -DNDEBUG  -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c parser2.cpp -o parser2.o\ng++  -I/usr/include/R/ -DNDEBUG  -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c wrapString.cpp -o wrapString.o\ng++ -shared -L/usr/lib64/R/lib -Wl,-O1,--sort-common,--as-needed,-z,relro -o roxygen2.so RcppExports.o isComplete.o leadingSpaces.o parser2.o wrapString.o -L/usr/lib64/R/lib -lR\ninstalling to /home/luis/R/x86_64-pc-linux-gnu-library/3.4/roxygen2/libs\n** R\n** inst\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** installing vignettes\n** testing if installed package can be loaded\n* DONE (roxygen2)\n\nThe downloaded source packages are in\n\t‘/tmp/RtmpgcNMvx/downloaded_packages’\nUpdating sempsychiatry documentation\nLoading sempsychiatry\nWriting anonym.Rd\nWriting dependencies.Rd\nWriting genotypesToOrdinals.Rd\nWriting loadFreeSurfer.Rd\nWriting remove_zero_cols.Rd\nWriting transformDivideThousand.Rd\nWarning message:\nVersion of roxygen2 last used with this package is 6.0.1.9000.  You only have version 6.0.1 \n> library(roxygen2)\n> library(\"devtools\")\n> document()\nUpdating sempsychiatry documentation\nLoading sempsychiatry\nWarning message:\nVersion of roxygen2 last used with this package is 6.0.1.9000.  You only have version 6.0.1 \n> library(sempsychiatry)\n> \n#############\n## RESTART ##\n#############\n\nR version 3.4.0 (2017-04-21) -- \"You Stupid Darkness\"\nCopyright (C) 2017 The R Foundation for Statistical Computing\nPlatform: x86_64-pc-linux-gnu (64-bit)\n\nR é um software livre e vem sem GARANTIA ALGUMA.\nVocê pode redistribuí-lo sob certas circunstâncias.\nDigite 'license()' ou 'licence()' para detalhes de distribuição.\n\nR é um projeto colaborativo com muitos contribuidores.\nDigite 'contributors()' para obter mais informações e\n'citation()' para saber como citar o R ou pacotes do R em publicações.\n\nDigite 'demo()' para demonstrações, 'help()' para o sistema on-line de ajuda,\nou 'help.start()' para abrir o sistema de ajuda em HTML no seu navegador.\nDigite 'q()' para sair do R.\n\n> devtools::install_github(\"klutometis/roxygen\")\nDownloading GitHub repo klutometis/roxygen@master\nfrom URL https://api.github.com/repos/klutometis/roxygen/zipball/master\nInstalling roxygen2\ntentando a URL 'https://cran.rstudio.com/src/contrib/R6_2.2.2.tar.gz'\nContent type 'application/x-gzip' length 322959 bytes (315 KB)\n==================================================\ndownloaded 315 KB\n\nInstalling R6\n'/usr/lib64/R/bin/R' --no-site-file --no-environ --no-save --no-restore  \\\n  --quiet CMD INSTALL '/tmp/RtmpI4ogAd/devtools432f70d200fc/R6'  \\\n  --library='/home/luis/R/x86_64-pc-linux-gnu-library/3.4' --install-tests \n\n* installing *source* package ‘R6’ ...\n** package ‘R6’ successfully unpacked and MD5 sums checked\n** R\n** inst\n** tests\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** installing vignettes\n** testing if installed package can be loaded\n* DONE (R6)\ntentando a URL 'https://cran.rstudio.com/src/contrib/Rcpp_0.12.11.tar.gz'\nContent type 'application/x-gzip' length 2485092 bytes (2.4 MB)\n==================================================\ndownloaded 2.4 MB\n\nInstalling Rcpp\n'/usr/lib64/R/bin/R' --no-site-file --no-environ --no-save --no-restore  \\\n  --quiet CMD INSTALL '/tmp/RtmpI4ogAd/devtools432f170897a1/Rcpp'  \\\n  --library='/home/luis/R/x86_64-pc-linux-gnu-library/3.4' --install-tests \n\n* installing *source* package ‘Rcpp’ ...\n** package ‘Rcpp’ successfully unpacked and MD5 sums checked\n** libs\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include/  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c Date.cpp -o Date.o\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include/  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c Module.cpp -o Module.o\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include/  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c Rcpp_init.cpp -o Rcpp_init.o\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include/  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c api.cpp -o api.o\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include/  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c attributes.cpp -o attributes.o\ng++  -I/usr/include/R/ -DNDEBUG -I../inst/include/  -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c barrier.cpp -o barrier.o\ng++ -shared -L/usr/lib64/R/lib -Wl,-O1,--sort-common,--as-needed,-z,relro -o Rcpp.so Date.o Module.o Rcpp_init.o api.o attributes.o barrier.o -L/usr/lib64/R/lib -lR\ninstalling to /home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/libs\n** R\n** inst\n** tests\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** installing vignettes\n** testing if installed package can be loaded\n* DONE (Rcpp)\n'/usr/lib64/R/bin/R' --no-site-file --no-environ --no-save --no-restore  \\\n  --quiet CMD INSTALL  \\\n  '/tmp/RtmpI4ogAd/devtools432f133d1450/klutometis-roxygen-14eae41'  \\\n  --library='/home/luis/R/x86_64-pc-linux-gnu-library/3.4' --install-tests \n\n* installing *source* package ‘roxygen2’ ...\n** libs\ng++  -I/usr/include/R/ -DNDEBUG  -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c RcppExports.cpp -o RcppExports.o\ng++  -I/usr/include/R/ -DNDEBUG  -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c isComplete.cpp -o isComplete.o\ng++  -I/usr/include/R/ -DNDEBUG  -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c leadingSpaces.cpp -o leadingSpaces.o\ng++  -I/usr/include/R/ -DNDEBUG  -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c parser2.cpp -o parser2.o\ng++  -I/usr/include/R/ -DNDEBUG  -I\"/home/luis/R/x86_64-pc-linux-gnu-library/3.4/Rcpp/include\" -D_FORTIFY_SOURCE=2   -fpic  -march=x86-64 -mtune=generic -O2 -pipe -fstack-protector-strong  -c wrapString.cpp -o wrapString.o\ng++ -shared -L/usr/lib64/R/lib -Wl,-O1,--sort-common,--as-needed,-z,relro -o roxygen2.so RcppExports.o isComplete.o leadingSpaces.o parser2.o wrapString.o -L/usr/lib64/R/lib -lR\ninstalling to /home/luis/R/x86_64-pc-linux-gnu-library/3.4/roxygen2/libs\n** R\n** tests\n** preparing package for lazy loading\n** help\n*** installing help indices\n** building package indices\n** installing vignettes\n** testing if installed package can be loaded\n* DONE (roxygen2)\n> \n> setwd(\"/home/luis/Dropbox/Documentos/Coding/R/sempsychiatry\")\n> \n> library(roxygen2)\n> library(\"devtools\")\n> document()\nUpdating sempsychiatry documentation\nLoading sempsychiatry\nWriting genotypesToOrdinals.Rd\n> library(sempsychiatry)\n> ",
+			"settings":
+			{
+				"buffer_size": 51038,
 				"line_ending": "Unix",
 				"name": "*REPL* [r]",
 				"read_only": true,
@@ -99,9 +115,21 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "git",
+		"last_filter": "pus",
 		"selected_items":
 		[
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
 			[
 				"git",
 				"Git: Add All"
@@ -113,10 +141,6 @@
 			[
 				"git push",
 				"Git: Push"
-			],
-			[
-				"comm",
-				"Git: Commit"
 			],
 			[
 				"instal",
@@ -209,10 +233,6 @@
 			[
 				"clos",
 				"Project: Close"
-			],
-			[
-				"add",
-				"Git: Add All"
 			],
 			[
 				"remove",
@@ -467,7 +487,7 @@
 				"Evernote Settings: User"
 			]
 		],
-		"width": 458.0
+		"width": 456.0
 	},
 	"console":
 	{
@@ -491,10 +511,11 @@
 	},
 	"expanded_folders":
 	[
-		"/media/budgie-remix/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Coding/R/sempsychiatry/R"
+		"/home/luis/Dropbox/Documentos/Coding/R/sempsychiatry/R"
 	],
 	"file_history":
 	[
+		"/media/budgie-remix/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Coding/R/documenting commands.R",
 		"/home/budgie-remix/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
 		"/home/budgie-remix/.config/sublime-text-3/Packages/User/Git.sublime-settings",
 		"/home/luis/Dropbox/Documentos/Coding/R/documenting commands.R",
@@ -621,12 +642,11 @@
 		"/home/luis/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/luis/.config/sublime-text-3/Packages/CiteBibtex/Default.sublime-keymap",
 		"/home/luis/.config/sublime-text-3/Packages/CiteBibtex/CiteBibtex.sublime-settings",
-		"/home/luis/.config/sublime-text-3/Packages/User/CiteBibtex.sublime-settings",
-		"/home/luis/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+		"/home/luis/.config/sublime-text-3/Packages/User/CiteBibtex.sublime-settings"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -706,7 +726,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -728,14 +748,6 @@
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "r"
-							},
 							"draw_centered": false,
 							"draw_indent_guides": true,
 							"draw_white_space": "selection",
@@ -754,76 +766,28 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/media/budgie-remix/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Coding/R/documenting commands.R",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 259,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								259,
-								259
-							]
-						],
-						"settings":
-						{
-							"draw_centered": false,
-							"draw_indent_guides": true,
-							"draw_white_space": "selection",
-							"fold_buttons": true,
-							"gutter": true,
-							"line_numbers": true,
-							"rulers":
-							[
-							],
-							"scroll_past_end": true,
-							"syntax": "Packages/R/R.sublime-syntax",
-							"word_wrap": "auto",
-							"wrap_width": 0
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "R/loadfreesurfer.R",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 972,
+						"buffer_size": 1143,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								954,
+								954
 							]
 						],
 						"settings":
 						{
-							"WordCount":
-							{
-								"changes": -1,
-								"modified": true,
-								"selection": true,
-								"status": -1,
-								"syntax": "r"
-							},
 							"draw_centered": false,
 							"draw_indent_guides": true,
 							"draw_white_space": "selection",
@@ -848,20 +812,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "R/write-descriptive-stats.R",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 703,
+						"buffer_size": 710,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								266,
-								266
+								0,
+								0
 							]
 						],
 						"settings":
@@ -884,29 +848,82 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 4,
+					"buffer": 3,
+					"file": "R/genotypestoordinals.R",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28099,
+						"buffer_size": 396,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								27946,
-								27946
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.sublime-syntax"
+						},
+						"translation.x": 1366.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/luis/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/source/14_appendix.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1949,
+								1949
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 501.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/luis/Dropbox/Documentos/Coding/R/documenting commands.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 212,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
 							]
 						],
 						"settings":
@@ -917,8 +934,53 @@
 								"modified": true,
 								"selection": true,
 								"status": -1,
-								"syntax": "r console"
+								"syntax": "r"
 							},
+							"draw_centered": false,
+							"draw_indent_guides": true,
+							"draw_white_space": "selection",
+							"fold_buttons": true,
+							"gutter": true,
+							"line_numbers": true,
+							"rulers":
+							[
+							],
+							"scroll_past_end": true,
+							"syntax": "Packages/R/R.sublime-syntax",
+							"word_wrap": "auto",
+							"wrap_width": 0
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 51038,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45927,
+								45956
+							]
+						],
+						"settings":
+						{
 							"auto_complete": true,
 							"auto_indent": false,
 							"detect_indentation": false,
@@ -926,13 +988,13 @@
 							"draw_indent_guides": true,
 							"draw_white_space": "selection",
 							"fold_buttons": true,
-							"gutter": true,
+							"gutter": false,
 							"history_arrows": true,
 							"indent_subsequent_lines": false,
-							"line_numbers": true,
+							"line_numbers": false,
 							"repl": true,
 							"repl_external_id": "r",
-							"repl_id": "7385855e15a84620ab01b09033086cd6",
+							"repl_id": "01443d7e35fe4012b037daa9a71865f1",
 							"repl_restart_args":
 							{
 								"additional_scopes":
@@ -1006,10 +1068,10 @@
 							"wrap_width": 0
 						},
 						"translation.x": 0.0,
-						"translation.y": 9000.0,
+						"translation.y": 21184.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1043,7 +1105,7 @@
 		"cols":
 		[
 			0.0,
-			0.510890177795,
+			0.505406300333,
 			1.0
 		],
 		"rows":
@@ -1052,7 +1114,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.exec":
 	{
 		"height": 134.0
@@ -1093,7 +1155,15 @@
 		[
 			[
 				"",
-				"/media/budgie-remix/887A3EFA7A3EE49A/Users/554UU-lfernado/Dropbox/Documentos/Psiquiatria/Projetos em andamento/MODERATION Structural imaging and cognition/MODERATION.sublime-project"
+				"~/Dropbox/Documentos/Shared between Jacyra-Luis/Pandoquer/2017 progress meeting.sublime-project"
+			],
+			[
+				"the",
+				"~/Dropbox/Documentos/Psiquiatria/Projetos em andamento/Thesis/thesis.sublime-project"
+			],
+			[
+				"media",
+				"~/Dropbox/Documentos/Psiquiatria/Projetos em andamento/MEDIATION Structural imaging and cognition/Analysis/welbeingMediation.sublime-project"
 			],
 			[
 				"mod",
@@ -1153,11 +1223,11 @@
 			]
 		]
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
-	"show_tabs": true,
+	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 244.0,
+	"side_bar_width": 215.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

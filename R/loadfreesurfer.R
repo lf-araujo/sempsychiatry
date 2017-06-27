@@ -12,13 +12,13 @@ loadFreeSurfer <- function(x){
         if (grepl(".table",i)) {
             if (grepl("aseg.allsegs",i)){
                 aseg <- read.csv(i, header=T)
-                colnames(aseg)[0] <- "subjectid"
+                colnames(aseg)[1] <- "subjectid"
             } else if (grepl("lh",i)){
                 lh_aparc <- read.csv(i, header=T)
-                colnames(lh_aparc)[0] <- "subjectid"
+                colnames(lh_aparc)[1] <- "subjectid"
             } else if (grepl("rh",i)){
                 rh_aparc <- read.csv(i, header=T)
-                colnames(rh_aparc)[0] <- "subjectid"
+                colnames(rh_aparc)[1] <- "subjectid"
             }
         }
     }
