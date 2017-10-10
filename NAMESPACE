@@ -3,6 +3,7 @@
 export(anonym)
 export(dependencies)
 export(genotypesToOrdinals)
+export(loadFiles)
 export(loadFreeSurfer)
 export(remove_zero_cols)
 export(transformDivideThousand)
